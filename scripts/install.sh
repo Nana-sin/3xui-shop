@@ -73,7 +73,6 @@ install_dependencies() {
             sudo dnf install -y -q $packages >/dev/null 2>&1
             ;;
         arch|manjaro|parch)
-            sudo pacman -Syu --noconfirm --quiet >/dev/null 2>&1
             sudo pacman -S --noconfirm --quiet $packages >/dev/null 2>&1
             ;;
         opensuse-tumbleweed|opensuse|suse)
