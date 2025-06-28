@@ -111,6 +111,8 @@ Before starting the installation, make sure you have the installed [**Docker**](
    ```bash
    git clone https://github.com/Nana-sin/3xui-shop/
    cd 3xui-shop
+   chmod +x ./scripts/install.sh
+   ./scripts/install.sh
    ```
 
 2. **Set up environment variables and plans:**
